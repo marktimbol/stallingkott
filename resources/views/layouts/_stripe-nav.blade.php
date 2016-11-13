@@ -5,7 +5,7 @@
         <ul>
             <li><a href="/">Home</a></li>
             <li class="has-dropdown gallery" data-content="about">
-                <a href="#0">About</a>
+                <a href="/about">About</a>
             </li>
             <li class="has-dropdown links" data-content="services">
                 <a href="#1">Our Services</a>
@@ -16,8 +16,8 @@
             <li class="has-dropdown gallery" data-content="clients">
                 <a href="#3">Our Clients</a>
             </li>
-            <li class="has-dropdown button" data-content="contact">
-                <a href="#4">Contact</a>
+            <li>
+                <a href="/contact">Contact</a>
             </li>
         </ul>
     </nav>
