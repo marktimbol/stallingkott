@@ -63,10 +63,17 @@
 					</p>
 				</div>
 				<div class="Column-6">
+					<div class="Video--container">
 					<img src="/images/about.jpg" 
 						alt="About Stelling Kott Koatings" 
 						title="About Stelling Kott Koatings" 
 						class="img-responsive full-width" />
+						<button class="btn btn-link" data-toggle="modal" data-target="#VideoModal">
+							<div class="play-video-icon Flex Flex--center">
+								<span></span>
+							</div>
+						</button>
+					</div>
 				</div>
 			</div>
 		</div>
