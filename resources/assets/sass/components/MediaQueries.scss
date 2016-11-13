@@ -1,0 +1,68 @@
+@mixin mobileStyles()
+{
+	.Row {
+		flex-direction: column;
+	}
+
+	.Hero__image {
+		display: none;
+	}
+
+	.Column-6 {
+		flex: 1;
+	}
+
+	.Hero__content {
+	    padding: 0px 20px;
+	}
+
+	.logo--container {
+		padding: 20px;
+	}
+
+	.Clients__carousel .owl-item {
+		margin: 0;
+	}
+
+	.Services {
+		.Service {
+			width: 100%;
+			margin: 10px 0px;
+			background-size: cover;
+		}
+	}
+
+	.Material {
+		flex-direction: column;
+	}
+
+	.Material__content-container {
+		flex: 1;
+	}
+
+	.Material__image {
+		flex: 1;
+	}
+
+	.Material__content {
+		p {
+			font-size: 18px;
+		}
+	}
+}
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+	@include mobileStyles();
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}

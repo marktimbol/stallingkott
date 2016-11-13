@@ -52,8 +52,8 @@
 
 	<section class="About">
 		<div class="container">
-			<div class="row About__content">
-				<div class="col-md-6">
+			<div class="Row About__content">
+				<div class="Column-6">
 					<h3 class="Section__title mt-0">About Stalling Kott Koatings</h3>
 					<p class="lead">
 						Incorporated in the emirate of Sharjah, U.A.E in 1993, Being the sole agents of the mother company the pioneers in the field of porcelain re-glazing and refinishing. It has successfully completed 23 years of service in this field.
@@ -62,7 +62,7 @@
 						<a href="/about" class="btn btn-lg btn-default Stelling__btn">Read more</a>
 					</p>
 				</div>
-				<div class="col-md-6">
+				<div class="Column-6">
 					<img src="/images/about.jpg" 
 						alt="About Stelling Kott Koatings" 
 						title="About Stelling Kott Koatings" 
