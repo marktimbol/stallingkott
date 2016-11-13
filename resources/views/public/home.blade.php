@@ -6,18 +6,22 @@
 	
 	<section class="Hero">
 		<div class="container">
-			<div class="row Flex">
-				<div class="Hero__content Column-6">
-					<h1 class="Hero__title">Give your home patio a makeover with our award-winning product</h1>
-					<p class="Hero__action">
-						<!-- Button trigger modal -->
-						<button type="button" class="btn btn-lg btn-default Stelling__btn Stelling__btn--white" data-toggle="modal" data-target="#inquiryFormModal">
-							Inquire Now
-						</button>
-					</p>
-				</div>
-				<div class="Hero__image Column-6">
-					<img src="/images/hero-image.png" alt="" title="" class="img-responsive" />
+			<div class="row">
+				<div class="_Hero__slider">
+					<div class="Row">
+						<div class="Hero__content Column-6">
+							<h1 class="Hero__title">Give your home patio a makeover with our award-winning product</h1>
+							<p class="Hero__action">
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-lg btn-default Stelling__btn Stelling__btn--white" data-toggle="modal" data-target="#inquiryFormModal">
+									Inquire Now
+								</button>
+							</p>
+						</div>
+						<div class="Hero__image Column-6">
+							<img src="/images/hero-image.png" alt="" title="" class="img-responsive" />
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

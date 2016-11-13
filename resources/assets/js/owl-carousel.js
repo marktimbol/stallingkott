@@ -4,4 +4,13 @@ $(document).ready(function() {
 		autoPlay: true,
 		pagination: false,
 	});
+
+	$('.Hero__slider').owlCarousel({
+    	navigation : false, // Show next and prev buttons
+    	pagination: true,
+    	autoPlay: false,
+    	slideSpeed : 500,
+    	paginationSpeed : 400,
+    	singleItem: true
+	});
 });
