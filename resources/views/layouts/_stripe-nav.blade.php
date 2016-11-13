@@ -30,29 +30,15 @@
                     <div class="content">   
                         <ul>
                             <li>
-                                <a href="#0">
+                                <a href="/about/president">
                                     <em>Message from the CEO</em>
                                     <span>A brief description here</span>
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#0">
+                                <a href="/about/company">
                                     <em>About our Company</em>
-                                    <span>A brief description here</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#0">
-                                    <em>Mission</em>
-                                    <span>A brief description here</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#0">
-                                    <em>Vision</em>
                                     <span>A brief description here</span>
                                 </a>
                             </li>
@@ -73,6 +59,12 @@
                                     <li><a href="#0">Public &amp; Home Toilets</a></li>
                                     <li><a href="#0">Public Dumpster</a></li>
                                     <li><a href="#0">All types of swimming pools</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <h2>&nbsp;</h2>
+                                <ul class="links-list">
                                     <li><a href="#0">Water parks slides</a></li>
                                     <li><a href="#0">Wooden floor refinishing</a></li>
                                     <li><a href="#0">Bathtub refinishing</a></li>
@@ -80,19 +72,6 @@
                                     <li><a href="#0">Restaurants tables and counters</a></li>
                                 </ul>
                             </li>
-
-{{--                             <li>
-                                <h2>Projects</h2>
-
-                                <ul class="links-list">
-                                    <li><a href="#0">Logo Design</a></li>
-                                    <li><a href="#0">Branding</a></li>
-                                    <li><a href="#0">Web Design</a></li>
-                                    <li><a href="#0">iOS</a></li>
-                                    <li><a href="#0">Android</a></li>
-                                    <li><a href="#0">HTML/CSS/JS</a></li>
-                                </ul>
-                            </li> --}}
                         </ul>
                     </div>
                 </li>
