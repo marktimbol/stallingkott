@@ -1,8 +1,9 @@
 $(document).ready(function() {
 	$('.Clients__carousel').owlCarousel({
-		items: 5,
+		items: 3,
 		autoPlay: true,
 		pagination: false,
+		loop: true,
 	});
 
 	$('.Hero__slider').owlCarousel({

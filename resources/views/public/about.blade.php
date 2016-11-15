@@ -1,16 +1,11 @@
 @extends('layouts.app')
 
-@section('bodyClass', 'About')
-
 @section('subpage_header')
 	<div class="Subpage__header">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<h1>About us</h1>
-					<p class="lead">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
-					</p>
 				</div>
 			</div>
 		</div>

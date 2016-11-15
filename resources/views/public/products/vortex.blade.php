@@ -6,9 +6,6 @@
 			<div class="row">
 				<div class="col-md-12">
 					<h1>Vortex</h1>
-					<p class="lead">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo.
-					</p>
 				</div>
 			</div>
 		</div>
@@ -20,12 +17,12 @@
 		<div class="row">
 			<div class="col-md-12">
 				<p>&nbsp;</p>
-				<div class="row">
-					<div class="col-md-5">
+				<div class="Flex">
+					<div class="Column-6">
 						<img src="/images/vortex.jpg" alt="Vortex" title="Vortex" class="img-responsive" />
 					</div>
-					<div class="col-md-7">
-						<h1 class="Section__title">What is Vortex®?</h1>
+					<div class="Column-6">
+						<h2 class="Section__title">What is Vortex®?</h2>
 						<ul>
 							<li>
 								VORTEX is a company backed by over 50 years in the coating industry.
@@ -46,7 +43,9 @@
 						</ul>
 					</div>
 				</div>
+
 				<p>&nbsp;</p>
+
 				<div class="row">
 					@foreach( range(1, 9) as $index )
 					<div class="col-md-4">

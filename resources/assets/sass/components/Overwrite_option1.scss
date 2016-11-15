@@ -1,0 +1,66 @@
+.navbar--absolute {
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+}
+
+.navbar-nav {
+	a {
+		color: white !important;
+		text-transform: uppercase;
+		&:hover {
+			// font-weight: bold;
+			// text-decoration: underline !important;
+		}
+	}
+}
+
+.btn {
+	border-radius: 0;
+}
+
+.Clients__carousel {
+	.owl-item {
+		margin: 0 5px;
+	}
+}
+
+.fa-2x {
+	font-size: 1.5em;
+}
+
+// Stripe Nav
+
+.dropdown-list {
+	ul {
+		list-style: none;
+		padding-left: 0;
+	}
+	a {
+		&:hover {
+			text-decoration: none !important;
+		}
+	}
+}
+
+.cd-morph-dropdown {
+	display: flex;
+    flex-direction: column;
+	background-color: transparent;
+	.main-nav > ul > li > a {
+		padding: 0 1em !important;
+		font-size: 1.5rem !important;
+		font-weight: bold;
+	}
+	.nav-trigger {
+		span {
+			background-color: white;
+			&::after {
+				background-color: white;
+			}
+			&::before {
+				background-color: white;
+			}
+		}
+	}
+}

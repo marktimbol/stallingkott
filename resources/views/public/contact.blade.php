@@ -6,9 +6,6 @@
 			<div class="row">
 				<div class="col-md-12">
 					<h1>Contact Us</h1>
-					<p class="lead">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo.
-					</p>
 				</div>
 			</div>
 		</div>

@@ -1,69 +1,40 @@
-.navbar-static-top {
+.navbar--absolute {
     width: 100%;
-    border: none;
-	margin-bottom: 0;
-    background: #7b3052;
-	// position: absolute;
+    border: 0;
+    position: absolute;
+    background-color: transparent;
 }
 
 .navbar-nav {
-	margin-top: 60px !important;
 	a {
 		color: white !important;
-		text-transform: uppercase;
-		&:hover {
-			// font-weight: bold;
-			// text-decoration: underline !important;
-		}
 	}
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555 !important;
+}
+
+.dropdown-menu > li > a {
+	color: #333333 !important;	
 }
 
 .btn {
-	border-radius: 0;
+    border-radius: 0;
 }
 
-.Clients__carousel {
-	.owl-item {
-		margin: 0 5px;
-	}
+.btn-transparent {
+    color: white;
+	background: transparent;
+    border: 1px solid white;
 }
 
 .fa-2x {
-	font-size: 1.5em;
+    font-size: 1.5em;
 }
 
-// Stripe Nav
-
-.dropdown-list {
-	ul {
-		list-style: none;
-		padding-left: 0;
-	}
-	a {
-		&:hover {
-			text-decoration: none !important;
-		}
-	}
-}
-
-.cd-morph-dropdown {
-	display: flex;
-    flex-direction: column;
-	background-color: transparent;
-	.main-nav > ul > li > a {
-		padding: 0 1em !important;
-		font-size: 1.5rem !important;
-		font-weight: bold;
-	}
-	.nav-trigger {
-		span {
-			background-color: white;
-			&::after {
-				background-color: white;
-			}
-			&::before {
-				background-color: white;
-			}
-		}
-	}
+.owl-carousel .owl-item {
+    margin: 0 5px;
 }

@@ -1,7 +1,6 @@
-<nav class="navbar navbar-default navbar-static-top">
+<nav class="navbar navbar-default navbar-static-top navbar--absolute">
     <div class="container">
         <div class="navbar-header">
-
             <!-- Collapsed Hamburger -->
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
                 <span class="sr-only">Toggle Navigation</span>
@@ -12,7 +11,11 @@
 
             <!-- Branding Image -->
             <a class="navbar-brand" href="{{ url('/') }}">
-                <img src="/images/logo.png" alt="" title="" class="img-responsive" />
+                <img src="/images/logo.png" 
+                    alt="{{ config('app.name') }}" 
+                    title="{{ config('app.name') }}" 
+                    width="50%"
+                    class="img-responsive" />
             </a>
         </div>
 
@@ -24,18 +27,31 @@
 
             <!-- Right Side Of Navbar -->
             <ul class="nav navbar-nav navbar-right">
-                <!-- Authentication Links -->
                 <li>
                     <a href="/">Home</a>
                 </li>
-                <li>
-                    <a href="/about">About Us</a>
+                <li class="dropdown">
+                    <a href="/about" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                        About Us <span class="caret"></span>
+                    </a>
+
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/about/president">Message from our President</a></li>
+                        <li><a href="/about/company">Our Company</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a href="/services">Services</a>
                 </li>
-                <li>
-                    <a href="/products">Products</a>
+                <li class="dropdown">
+                    <a href="/products" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                        Products <span class="caret"></span>
+                    </a>
+
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/product/vortex">Vortex</a></li>
+                        <li><a href="#">Kott Koatings</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a href="/clients">Clients</a>

@@ -1,14 +1,22 @@
-
-.Row {
-	display: flex;
-}
-
 .Flex {
 	display: flex;
 }
 
+.Flex--center {
+	align-items: center;
+	justify-content: center;	
+}
+
 .Flex-1 {
 	flex: 1;
+}
+
+.Column-4 {
+	flex: 0.3333;
+}
+
+.Column-6 {
+	flex: 0.5;
 }
 
 .Flex--column {
@@ -18,11 +26,6 @@
 .Flex--end {
 	align-items: flex-end;
 	justify-content: flex-end;
-}
-
-.Flex--center {
-	align-items: center;
-	justify-content: center;
 }
 
 .Flex--wrap {

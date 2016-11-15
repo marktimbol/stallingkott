@@ -1,3 +1,45 @@
+<section class="Clients">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 class="Section__title Section__title--center">Clients</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="Clients__carousel">
+					@foreach( range( 1, 2 ) as $index )
+					<div class="item">
+						<a href="#">
+							<img src="/images/rta.jpeg" 
+								alt="RTA" 
+								title="RTA" 
+								class="img-responsive" />
+						</a>
+					</div>
+					<div class="item">
+						<a href="#">
+							<img src="/images/dubai-municipality.jpeg" 
+								alt="Dubai Municipality" 
+								title="Dubai Municipality" 
+								class="img-responsive" />
+						</a>
+					</div>
+					<div class="item">
+						<a href="#">
+							<img src="/images/dreamland.jpg" 
+								alt="Dreamland" 
+								title="Dreamland" 
+								class="img-responsive" />
+						</a>
+					</div>
+					@endforeach
+				</div>
+			</div>
+		</div>	
+	</div>	
+</section>
+
 <footer>
 	<div class="container">
 		<div class="row">
@@ -28,17 +70,17 @@
 				<h4>Follow Us</h4>
 				<ul class="Follow__us">
 					<li>
-						<a href="#" class="is-centered-xy">
+						<a href="#" class="Flex Flex--center">
 							<i class="fa fa-facebook fa-2x"></i>
 						</a>
 					</li>
 					<li>
-						<a href="#" class="is-centered-xy">
+						<a href="#" class="Flex Flex--center">
 							<i class="fa fa-twitter fa-2x"></i>
 						</a>
 					</li>
 					<li>
-						<a href="#" class="is-centered-xy">
+						<a href="#" class="Flex Flex--center">
 							<i class="fa fa-instagram fa-2x"></i>
 						</a>
 					</li>
