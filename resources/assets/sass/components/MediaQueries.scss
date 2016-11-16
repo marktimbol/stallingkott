@@ -1,11 +1,7 @@
 @mixin mobileStyles()
 {
-	.Row {
+	.Flex {
 		flex-direction: column;
-	}
-
-	.Hero__image {
-		display: none;
 	}
 
 	.Column-6 {
@@ -32,21 +28,20 @@
 		}
 	}
 
-	.Material {
-		flex-direction: column;
+	.navbar-collapse {
+		border: 0;
+		background: #c4522b;
 	}
 
-	.Material__content-container {
-		flex: 1;
-	}
-
-	.Material__image {
-		flex: 1;
-	}
-
-	.Material__content {
-		p {
-			font-size: 18px;
+	.navbar-default {
+		.navbar-toggle {
+			margin-top: 30px;
+			&:hover, &:focus {
+				background-color: transparent !important;
+			}
+			.icon-bar {
+				background-color: white;
+			}
 		}
 	}
 }
