@@ -7,11 +7,9 @@ $(document).ready(function() {
 	});
 
 	$('.Hero__slider').owlCarousel({
-    	navigation : false, // Show next and prev buttons
-    	pagination: true,
-    	autoPlay: false,
-    	slideSpeed : 500,
-    	paginationSpeed : 400,
-    	singleItem: true
+		navigation : false, // Show next and prev buttons
+		slideSpeed : 300,
+		paginationSpeed : 400,
+		singleItem: true
 	});
 });
