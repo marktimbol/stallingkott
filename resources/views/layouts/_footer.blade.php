@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2 class="Section__title Section__title--center">Clients</h2>
+				<h2 class="Section__title Section__title--center fancy-title">Clients</h2>
 			</div>
 		</div>
 		<div class="row">

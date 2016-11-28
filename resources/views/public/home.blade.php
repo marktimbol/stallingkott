@@ -46,7 +46,7 @@
 						<div class="Product__content">
 							<div class="Flex Flex--center">
 								<div class="Column-6">
-									<h3 class="Section__title Section__title--white">Vortex</h3>
+									<h3 class="Section__title Section__title--white fancy-title">Vortex</h3>
 									<p>
 										VORTEX is a company backed by over 50 years in the coating industry.
 									</p>
@@ -63,7 +63,7 @@
 						<div class="Product__content">
 							<div class="Flex Flex--center">
 								<div class="Column-6">
-									<h3 class="Section__title Section__title--white">Kott Koatings</h3>
+									<h3 class="Section__title Section__title--white fancy-title">Kott Koatings</h3>
 									<p>
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
 									</p>
@@ -88,7 +88,7 @@
 					<div class="About__content">
 						<div class="Flex Flex--center">
 							<div class="Column-6">
-								<h3 class="Section__title Section__title--white">About Stalling Kott Koatings</h3>
+								<h3 class="Section__title Section__title--white fancy-title">About Stalling Kott Koatings</h3>
 								<p class="lead">
 									Incorporated in the emirate of Sharjah, U.A.E in 1993, Being the sole agents of the mother company the pioneers in the field of porcelain re-glazing and refinishing. It has successfully completed 23 years of service in this field.
 								</p>
@@ -112,7 +112,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2 class="Section__title Section__title--center">What we do</h2>
+					<h2 class="Section__title Section__title--center fancy-title">What we do</h2>
 					<p class="lead text-center">
 						The services our company provide are but not limited to the below
 					</p>

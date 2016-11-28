@@ -169,7 +169,7 @@
 					</div>	
 				</div>
 
-				<h3>Advantages of Stalling Kott Koating Materials</h3>
+				<h3 class="fancy-title">Advantages of Stalling Kott Koating Materials</h3>
 				<ul>
 					<li>
 						Non-Urethane based materials but environment friendly
@@ -183,7 +183,7 @@
 					</li>
 				</ul>
 
-				<h3>What we do?</h3>
+				<h3 class="fancy-title">What we do?</h3>
 				<ul>
 					<li>
 						Repairs of cracks, chippings, broken parts, rust removing, smoothing rough areas.
