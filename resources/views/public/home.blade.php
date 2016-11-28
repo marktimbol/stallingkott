@@ -20,11 +20,12 @@
 	    </div>
 
 		<div class="Video__content is-centered Flex--column">
-			<img src="/images/stallingkott-title.png" alt="Stalling Kott" title="Stalling Kott" class="img-responsive" />
-
-			<h1 class="Video__title">
+ 			<h1 class="Video__title">
+ 				Stalling Kott Koatings
+ 			</h1>
+			<h2 class="Video__subtitle">
 				Give your home patio a makeover with our award-winning product
-			</h1>
+			</h2>
 			<p class="Video__action">
 				<button type="button" 
 					class="btn btn-lg btn-default btn-transparent" 

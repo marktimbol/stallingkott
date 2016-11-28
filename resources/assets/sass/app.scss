@@ -2,8 +2,13 @@ $themeColor: #7b3052;
 $green: #00b1b3;
 $orange: #EF6733;
 
-// Fonts
-// @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@font-face {
+    font-family: 'Novitha';
+    src: url('/fonts/novitha_script.woff2') format('woff2'),
+         url('/fonts/novitha_script.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 // Variables
 @import "variables";
@@ -21,6 +26,11 @@ h1, h2, h3 {
 
 body {
 	font-weight: 300;
+}
+
+.fancy-title {
+	font-size: 4em;
+	font-family: 'Novitha', sans-serif;
 }
 
 .is-centered {
@@ -46,11 +56,20 @@ body {
 	h1 {
 		margin: 0;
 		color: white;
+		font-size: 7em;
 		text-align: center;
+		font-family: 'Novitha', sans-serif;
 	}
 }
 
 .Video__title {
+	color: white;
+	font-size: 7em;
+	text-align: center;
+	font-family: 'Novitha', sans-serif;
+}
+
+.Video__subtitle {
 	color: white;
 	font-size: 2em;
 	text-align: center;
