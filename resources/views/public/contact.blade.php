@@ -15,8 +15,8 @@
 @section('content')
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
-				<h3 class="Section__title">Send us a message</h3>
+			<div class="col-md-6">
+				<h3 class="Section__title fancy-title">Send us a message</h3>
 				<address>
 					<p class="lead">
 						PO BOX: 20 Sharjah<br />
@@ -58,6 +58,36 @@
 					</div>
 				</form>
 			</div>
+			<div class="col-md-6">
+				<address>
+					<h3 class="fancy-title">Stalling Kott Koatings</h3>
+					Industrial Area 18, Sharjah, UAE<br />
+					T +971 6 532 1444<br />
+					F +971 6 532 3388<br />
+					<a href="mailto:stalling@emirates.net.ae">stalling@emirates.net.ae</a><br />
+				</address>
+
+				<address>
+					<h3 class="fancy-title">General Manager</h3>
+					Ahmed Emara<br />
+					<a href="mailto:ae.emara@outlook.com">ae.emara@outlook.com</a><br />
+					M +971 52 876 0777
+				</address>		
+
+				<address>
+					<h3 class="fancy-title">Sales Executive</h3>
+					Akoh Gideon Anyi<br />
+					<a href="mailto:stalling@emirates.net.ae">stalling@emirates.net.ae</a><br />
+					M +971 56 700 9559
+				</address>		
+
+				<address>
+					<h3 class="fancy-title">Sales Executive</h3>
+					Jose Joseph<br />
+					<a href="mailto:stalling@emirates.net.ae">stalling@emirates.net.ae</a><br />
+					M +971 50 483 0220
+				</address>						
+			</div>			
 		</div>
 	</div>
 @endsection

@@ -17,9 +17,16 @@
 	<div class="container">
 		<div class="row Clients">
 			<div class="col-md-12">
-				<h3 class="fancy-title">Customers we are dealing with</h3>
+				<h3 class="fancy-title">Our Goal</h3>
+				<blockquote>
+					To take pride in our customers, making sure that their needs are satisfied. We at Stalling Kott Koatting work year round looking for quality products and innovative ideas to offer our customers or are thinking about building a pool, you want the best, and that is what we offer our customers.
+				</blockquote>
 			</div>
 
+			<div class="col-md-12">
+				<h3 class="fancy-title">Customers we are dealing with</h3>
+			</div>
+			
 			<div class="row">
 				<div class="col-md-6">
 					<div class="panel panel-default">
