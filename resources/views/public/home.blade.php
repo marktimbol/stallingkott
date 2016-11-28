@@ -69,7 +69,7 @@
 									</p>
 								</div>
 								<div class="Column-6">
-									<a href="#">
+									<a href="/product/kott-koatings">
 										<img src="/images/Kott-koatings--logo.jpg" alt="" title="" class="img-responsive full-width" />
 									</a>
 								</div>
