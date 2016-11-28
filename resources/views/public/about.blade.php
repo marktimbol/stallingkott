@@ -39,6 +39,8 @@
 					Our technicians gained international experiences by the hands of the mother company’s engineers and through our assorted works inside the country at hotels, residential complexes, hospitals, factories & others. Of course we are the superior in our performances and got the satisfaction on our clients.					
 				</p>
 
+				<h3 class="fancy-title">Mission</h3>
+
 				<blockquote>
 					To be forerunner is the field of refinishing. This is achieved by a team of dedicated employees who focus on and anticipate our customer’s needs and who are committed to and take pride in delivering high quality of service. The major step towards success rests upon products addressing to the highest industrial standards.
 				</blockquote>
@@ -186,31 +188,31 @@
 				</div>
 
 				<h3 class="fancy-title">Advantages of Stalling Kott Koating Materials</h3>
-				<ul>
-					<li>
+				<ul class="list-group">
+					<li class="list-group-item">
 						Non-Urethane based materials but environment friendly
 					</li>
-					<li>
+					<li class="list-group-item">
 						It is not a paint but it is porcelain, well treated to refinish
 						rough surfaces and crack within 12 hours.
 					</li>
-					<li>
+					<li class="list-group-item">
 						It gives permanent shine and resistant to heavy works.
 					</li>
 				</ul>
 
 				<h3 class="fancy-title">What we do?</h3>
-				<ul>
-					<li>
+				<ul class="list-group">
+					<li class="list-group-item">
 						Repairs of cracks, chippings, broken parts, rust removing, smoothing rough areas.
 					</li>
-					<li>
+					<li class="list-group-item">
 						Good finish is obtained by grouting with heavy duty materials to give a smooth shiny surface.
 					</li>
-					<li>
+					<li class="list-group-item">
 						An application of the new safety trade to bathtubs. State remolding of bathtub & tile by use of Stalling Kott Koating materials.
 					</li>
-					<li>
+					<li class="list-group-item">
 						All the works shall be completed within the time of 24 hours.
 					</li>
 				</ul>				
