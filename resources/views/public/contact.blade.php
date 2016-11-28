@@ -39,28 +39,28 @@
 						Email: <a href="mailto:stalling.kottkoatings@gmail.com">stalling.kottkoatings@gmail.com</a>
 					</p>
 				</address>
-				<form method="POST" action="/">
+				<form method="POST" action="{{ route('inquiries.store') }}">
 					{{ csrf_field() }}
 					<div class="form-group {{ $errors->has('name') ? 'has-error' : '' }}">
-						<label for="name">Name *</label>
+						<label for="name" class="control-label">Name *</label>
 						<input type="text" name="name" id="name" class="form-control" value="{{ old('name') }}" />
 						@if( $errors->has('name') )
 							<span class="help-block">{{ $errors->first('name') }}</span>
 						@endif
 					</div>
 					<div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">
-						<label for="email">eMail *</label>
+						<label for="email" class="control-label">eMail *</label>
 						<input type="email" name="email" id="email" class="form-control" value="{{ old('email') }}" />
 						@if( $errors->has('email') )
 							<span class="help-block">{{ $errors->first('email') }}</span>
 						@endif
 					</div>
 					<div class="form-group">
-						<label for="phone">Phone</label>
+						<label for="phone" class="control-label">Phone</label>
 						<input type="text" name="phone" id="phone" class="form-control" value="{{ old('phone') }}" />
 					</div>
 					<div class="form-group">
-						<label for="message">Message</label>
+						<label for="message" class="control-label">Message</label>
 						<textarea name="message" id="message" class="form-control" rows="5">
 							{{ old('message') }}
 						</textarea>

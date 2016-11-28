@@ -21,7 +21,7 @@
 			<div class="modal-body">
 				<div class="row">
 					<div class="col-md-12">
-						<form method="POST" action="{{ route('inquiries.store') }}">
+						<form metho
 							{{ csrf_field() }}
 							<div class="form-group {{ $errors->has('name') ? 'has-error' : '' }}">
 								<label for="name">Name *</label>
@@ -41,14 +41,9 @@
 									</span>
 								@endif
 							</div>
-							<div class="form-group {{ $errors->has('phone') ? 'has-error' : '' }}">
-								<label for="phone">Phone *</label>
-								<input type="text" name="phone" id="phone" class="form-control" value="{{ old('phone') }}" required />
-								@if( $errors->has('phone') )
-									<span class="help-block">
-										<strong>{{ $errors->first('phone') }}</strong>
-									</span>
-								@endif
+							<div class="form-group">
+								<label for="phone">Phone</label>
+								<input type="text" name="phone" id="phone" class="form-control" value="{{ old('phone') }}" />
 							</div>
 							<div class="form-group">
 								<label for="message">Message</label>
