@@ -44,7 +44,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<h4>Pages</h4>
+				<h4 class="fancy-title">Pages</h4>
 				<ul>
 					<li>
 						<a href="/">Home</a>
@@ -67,7 +67,7 @@
 				</ul>
 			</div>
 			<div class="col-md-4">
-				<h4>Follow Us</h4>
+				<h4 class="fancy-title">Follow Us</h4>
 				<ul class="Follow__us">
 					<li>
 						<a href="#" class="Flex Flex--center">
@@ -87,7 +87,7 @@
 				</ul>
 			</div>
 			<div class="col-md-4">
-				<h4>Subscribe to our Newsletter</h4>
+				<h4 class="fancy-title">Subscribe to our Newsletter</h4>
 			</div>
 		</div>
 	</div>

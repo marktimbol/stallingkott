@@ -1,14 +1,29 @@
 @extends('layouts.app')
 
+@section('header_styles')
+	<link rel="stylesheet" href="{{ elixir('css/video.css') }}" />
+@endsection
+
 @section('subpage_header')
-	<div class="Subpage__header">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h1>About us</h1>
-				</div>
-			</div>
-		</div>
+	<div class="homepage-hero-module is-centered h-40vh">
+	    <div class="video-container">
+	        <div class="filter"></div>
+	        <video autoplay loop class="fillWidth">
+	            <source src="/videos/about-video.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+	        </video>
+	        <div class="poster hidden">
+	            <img src="PATH_TO_JPEG" alt="" title="" />
+	        </div>
+	    </div>
+
+		<div class="Video__content is-centered Flex--column">	
+			<h1 class="Video__title">
+				About Us
+			</h1>
+			<h2 class="Video__subtitle">
+				{{-- Introducing the exclusive patented "VORTEX SPRAYED ON LINER" system. --}}
+			</h2>			
+		</div>		    
 	</div>
 @endsection
 
@@ -16,6 +31,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
+				<h3 class="fancy-title">History</h3>
 				<p>
 					Incorporated in the emirate of Sharjah, U.A.E in 1993, Being the sole agents of the mother company the pioneers in the field of porcelain re-glazing and refinishing. Stalling Kott Koating has successfully completed 23 years of service in this field, moreover we are the first company to be provided with government approval for the porcelain glazes.
 				</p>
@@ -201,4 +217,8 @@
 			</div>
 		</div>
 	</div>
+@endsection
+
+@section('footer_scripts')
+	<script src="{{ elixir('js/video.js') }}"></script>
 @endsection

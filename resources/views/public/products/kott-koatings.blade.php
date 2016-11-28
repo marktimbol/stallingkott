@@ -1,11 +1,11 @@
-@extends('layouts.app')
+ @extends('layouts.app')
 
 @section('header_styles')
 	<link rel="stylesheet" href="{{ elixir('css/video.css') }}" />
 @endsection
 
 @section('subpage_header')
-	<div class="homepage-hero-module is-centered">
+	<div class="homepage-hero-module is-centered h-40vh">
 	    <div class="video-container">
 	        <div class="filter"></div>
 	        <video autoplay loop class="fillWidth">

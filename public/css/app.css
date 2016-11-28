@@ -8983,10 +8983,9 @@ footer {
   margin-top: 30px; }
   footer h4 {
     color: #333;
-    font-size: 20px;
+    font-size: 3em !important;
     font-weight: 400;
-    margin-bottom: 30px;
-    text-transform: uppercase; }
+    margin-bottom: 30px; }
   footer ul {
     padding-left: 0;
     list-style: none; }
@@ -9102,6 +9101,9 @@ blockquote {
 
 .img-responsive {
   border-radius: 3px; }
+
+.homepage-hero-module.h-40vh {
+  height: 40vh !important; }
 
 .video-container {
   position: relative;

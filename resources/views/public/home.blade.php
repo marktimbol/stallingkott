@@ -48,7 +48,7 @@
 								<div class="Column-6">
 									<h3 class="Section__title Section__title--white fancy-title">Vortex</h3>
 									<p>
-										VORTEX is a company backed by over 50 years in the coating industry.
+										The Vortex Spray liner System allows applying a super industrial coating up to...
 									</p>
 								</div>
 								<div class="Column-6">
