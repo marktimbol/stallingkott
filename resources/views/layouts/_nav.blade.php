@@ -30,15 +30,8 @@
                 <li>
                     <a href="/">Home</a>
                 </li>
-                <li class="dropdown">
-                    <a href="/about" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                        About Us <span class="caret"></span>
-                    </a>
-
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="/about/president">Message from our President</a></li>
-                        <li><a href="/about/company">Our Company</a></li>
-                    </ul>
+                <li>
+                    <a href="/about">About Us</a>
                 </li>
                 <li>
                     <a href="/services">Services</a>

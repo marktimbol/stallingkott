@@ -21,6 +21,22 @@
 					<p class="lead text-center">
 						The services our company provide are but not limited to the below
 					</p>
+
+					<ul>
+						<li>
+							Repairs of cracks, chippings, broken parts, rust removing, smoothing rough areas.
+						</li>
+						<li>
+							Good finish is obtained by grouting with heavy duty materials to give a smooth shiny surface.
+						</li>
+						<li>
+							An application of the new safety trade to bathtubs. State remolding of bathtub & tile by use of Stalling Kott Koating materials.
+						</li>
+						<li>
+							All the works shall be completed within the time of 24 hours.
+						</li>
+					</ul>
+					</p>
 				</div>
 			</div>
 			<div class="row">

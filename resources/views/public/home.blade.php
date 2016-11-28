@@ -20,6 +20,8 @@
 	    </div>
 
 		<div class="Video__content is-centered Flex--column">
+			<img src="/images/stallingkott-title.png" alt="Stalling Kott" title="Stalling Kott" class="img-responsive" />
+
 			<h1 class="Video__title">
 				Give your home patio a makeover with our award-winning product
 			</h1>
@@ -88,6 +90,11 @@
 								<h3 class="Section__title Section__title--white">About Stalling Kott Koatings</h3>
 								<p class="lead">
 									Incorporated in the emirate of Sharjah, U.A.E in 1993, Being the sole agents of the mother company the pioneers in the field of porcelain re-glazing and refinishing. It has successfully completed 23 years of service in this field.
+								</p>
+								<p>
+									<a href="/about" class="btn btn-default btn-transparent">
+										Read more
+									</a>
 								</p>
 							</div>
 							<div class="Column-6">
