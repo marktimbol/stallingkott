@@ -31,19 +31,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h3 class="fancy-title">History</h3>
+				<h3 class="fancy-title">Stalling Kott Koating</h3>
 				<p>
 					Incorporated in the emirate of Sharjah, U.A.E in 1993, Being the sole agents of the mother company the pioneers in the field of porcelain re-glazing and refinishing. Stalling Kott Koating has successfully completed 23 years of service in this field, moreover we are the first company to be provided with government approval for the porcelain glazes.
 				</p>
 				<p>
 					Our technicians gained international experiences by the hands of the mother company’s engineers and through our assorted works inside the country at hotels, residential complexes, hospitals, factories & others. Of course we are the superior in our performances and got the satisfaction on our clients.					
 				</p>
-
-				<h3 class="fancy-title">Mission</h3>
-
-				<blockquote>
-					To be forerunner is the field of refinishing. This is achieved by a team of dedicated employees who focus on and anticipate our customer’s needs and who are committed to and take pride in delivering high quality of service. The major step towards success rests upon products addressing to the highest industrial standards.
-				</blockquote>
 
 				<p>
 					Stalling Kott Koating from the time established have presented itself with the solutions for the problems faced by its clients from residential, commercial and hospitality industry .An array of major star hotels of U.A.E form our prestigious client base. At Stalling Kott Koating we truly believe success lays not only in carrying out projects but also in the service rendered after the works.
@@ -53,17 +47,23 @@
 					Most of the refinishers prefer usage of Acid etching materials in the form of liquid, creams and pastes, The above said products have been determined to be extremely hazardous to the users health and the environment. Our materials are the only glazes in the world that have been tested by the International surveillance agencies through their toxicological laboratory(contox). The glazes are found to be both safe and non toxic and do not contain any carcinogens that can cause cancer, so its ideally suited for even for food preparation areas.
 				</p>
 
+				<h3 class="fancy-title">Mission</h3>
+
+				<blockquote>
+					To be forerunner is the field of refinishing. This is achieved by a team of dedicated employees who focus on and anticipate our customer’s needs and who are committed to and take pride in delivering high quality of service. The major step towards success rests upon products addressing to the highest industrial standards.
+				</blockquote>
+
 				<h3 class="fancy-title">Custom Overlay Designs</h3>
 				<p>
 					For that elegant touch to a bathroom or kitchen, the Kott overlay is the perfect solution. To purchase custom designed tiles & have them installed can cost hundreds & thousands of dirhams & take days or week to complete. Stalling Kott Koatings has the answer to this high cost & lengthy installation, with the use of Kott Overlay System (KOS). Specially designed overlay patterns applied directly to either the original surface or a Stalling Kott Koated surface, to give the special custom look that could cost thousand of dirham.
 				</p>
 
-				<h3 class="fancy-title">About Our Glazes</h3>
+				<h3 class="fancy-title">About Our Glaze's Materials</h3>
 				<div class="row">
 					<div class="col-md-6">
 						<div class="panel panel-default">
 							<div class="panel-heading">
-								<h3 class="panel-title">Kott Koatings materials</h3>
+								<h3 class="panel-title">Kott Koatings Materials</h3>
 							</div>
 							<div class="panel-body">
 								<p>
@@ -104,6 +104,15 @@
 								<p>
 									Granitex sets the standard in surface coatings with a patented blend of urethane and aliphatic urethanes to create a high impact protective surface coating. The Granitex baked-on flooring system are highly UV stable, incredibly stain resistant, and extremely impact resistance. The patented Granitex glazes are heated within the Granitex flooring machine so that when applied to a floor, the glazes provide a penetrating, long lasting, durable surface tough enough for warehouse floor applications as well as residential garage floor resurfacing.
 								</p>
+
+								<ul>
+									<li>Granitex: Interior/Exterior Floor Coatings Combine Durable High Impact Aliphatic Urethane Coatings</li>
+									<li>20 times stronger than 2-Part Epoxy Garage Floor Paints and Enamels</li>
+									<li>Durable enough for High Impact Industrial Grade Use</li>
+									<li>An Almost Unlimited Number of Solid Colors and Granitex Chip Combinations</li>
+									<li>Extremely UV Stable</li>
+									<li>Increase the Safety of Walking Areas by Creating a Non-Skid, Slip Resistant Surface</li>
+								</ul>
 							</div>
 						</div>
 					</div>	
@@ -115,6 +124,8 @@
 							<div class="panel-body">
 								<p>
 									The Eco-Meric System is comprised of two coats of water sealing, Elastoflex material. This unique blend of resins allows it to be both environmentally safe yet industrially strong when it comes to sealing off roofs for years of leak free maintenance.
+								</p>
+								<p>
 									The Top Coat is also a water sealing membrane that is also UV resistant and reflects up to 85% of the harmful sunlight. The final result can reduce cooling coast by up to 31%!
 								</p>
 							</div>
