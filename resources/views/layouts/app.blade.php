@@ -14,6 +14,8 @@
     <link href="{{ elixir('css/app.css') }}" rel="stylesheet">
     <link href="{{ elixir('css/carousel.css') }}" rel="stylesheet">
 
+    @yield('header_styles')
+
     <!-- Scripts -->
     <script>
         window.App = <?php echo json_encode([
@@ -37,5 +39,7 @@
     <script src="{{ elixir('js/carousel.js') }}"></script>
     
     @include('flash')
+
+    @yield('footer_scripts')
 </body>
 </html>

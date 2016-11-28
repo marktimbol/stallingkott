@@ -22,7 +22,12 @@
 }
 
 .btn {
-    border-radius: 0;
+    color: white;
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 10px 20px;    
+    border: 1px solid white;
+    text-transform: uppercase;
 }
 
 .btn-transparent {
@@ -37,4 +42,23 @@
 
 .owl-carousel .owl-item {
     margin: 0 5px;
+}
+
+.img-responsive {
+    border-radius: 3px;
+}
+
+.video-container {
+    position: relative;
+    background: transparent !important;
+    &::after {
+        content: " ";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: rgba(0,0,0,0.5);          
+    }    
+    video {
+        top: 0;
+    }
 }

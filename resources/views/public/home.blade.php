@@ -2,49 +2,56 @@
 
 @section('bodyClass', 'Home')
 
+@section('header_styles')
+	<link rel="stylesheet" href="{{ elixir('css/video.css') }}" />
+@endsection
+
 @section('content')
 	
-	<section class="Hero Hero--center">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8">
-					<h1 class="Hero__title">
-						Give your home patio a makeover with our award-winning product
-					</h1>
-					<p class="Hero__action">
-						<button type="button" 
-							class="btn btn-lg btn-default btn-transparent" 
-							data-toggle="modal" 
-							data-target="#inquiryFormModal"
-						>
-							Inquire Now
-						</button>
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
+	<div class="homepage-hero-module is-centered">
+	    <div class="video-container">
+	        <div class="filter"></div>
+	        <video autoplay loop class="fillWidth">
+	            <source src="/videos/video.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+	        </video>
+	        <div class="poster hidden">
+	            <img src="PATH_TO_JPEG" alt="" title="" />
+	        </div>
+	    </div>
+
+		<div class="Video__content is-centered Flex--column">
+			<h1 class="Video__title">
+				Give your home patio a makeover with our award-winning product
+			</h1>
+			<p class="Video__action">
+				<button type="button" 
+					class="btn btn-lg btn-default btn-transparent" 
+					data-toggle="modal" 
+					data-target="#inquiryFormModal"
+				>
+					Inquire Now
+				</button>
+			</p>
+		</div>		    
+	</div>
 
 	<section class="Products">
 		<div class="container">
 			<div class="row">
 				<div class="Flex">
-					<div class="Product Column-6 Flex Flex--center is-red">
+					<div class="Product Column-6 Flex Flex--center is-green">
 						<div class="Product__content">
 							<div class="Flex Flex--center">
 								<div class="Column-6">
 									<h3 class="Section__title Section__title--white">Vortex</h3>
 									<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
-									</p>
-									<p>
-										<a href="/product/vortex" class="btn btn-default btn-transparent">
-											Read more
-										</a>
+										VORTEX is a company backed by over 50 years in the coating industry.
 									</p>
 								</div>
 								<div class="Column-6">
-									<img src="/images/Vortex--logo.jpg" alt="" title="" class="img-responsive full-width" />
+									<a href="/product/vortex">
+										<img src="/images/Vortex--logo.jpg" alt="" title="" class="img-responsive full-width" />
+									</a>
 								</div>
 							</div>
 						</div>
@@ -55,16 +62,13 @@
 								<div class="Column-6">
 									<h3 class="Section__title Section__title--white">Kott Koatings</h3>
 									<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
-									</p>
-									<p>
-										<a href="" class="btn btn-default btn-transparent">
-											Read more
-										</a>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
 									</p>
 								</div>
 								<div class="Column-6">
-									<img src="/images/Kott-koatings--logo.jpg" alt="" title="" class="img-responsive full-width" />
+									<a href="#">
+										<img src="/images/Kott-koatings--logo.jpg" alt="" title="" class="img-responsive full-width" />
+									</a>
 								</div>
 							</div>
 						</div>
@@ -148,4 +152,8 @@
 	</section>
 
 	@include('public._inquiry-form-modal')
+@endsection
+
+@section('footer_scripts')
+	<script src="{{ elixir('js/video.js') }}"></script>
 @endsection

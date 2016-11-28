@@ -6,10 +6,11 @@ $(document).ready(function() {
 		loop: true,
 	});
 
-	$('.Hero__slider').owlCarousel({
-		navigation : false, // Show next and prev buttons
-		slideSpeed : 300,
-		paginationSpeed : 400,
-		singleItem: true
-	});
+	$(".Hero__slider").owlCarousel({
+		paginationSpeed : 1000,
+		goToFirstSpeed : 2000,
+		singleItem : true,
+		autoHeight : true,
+		margin: 0,
+	});	
 });

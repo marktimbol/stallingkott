@@ -27,6 +27,14 @@ elixir(mix => {
         .scripts([
             'modernizr-custom.js'
         ], 'public/js/modernizr.js')
+
+        .styles([
+            'video.css'
+        ], 'public/css/video.css')
+
+        .scripts([
+            'Video.js'
+        ], 'public/js/video.js')
     	
     	.webpack('app.js')
 
@@ -36,6 +44,8 @@ elixir(mix => {
     		'public/css/app.css',
     		'public/js/app.js',
     		'public/css/carousel.css',
-    		'public/js/carousel.js'
+            'public/js/carousel.js',
+            'public/css/video.css',
+    		'public/js/video.js'
     	]);
 });
