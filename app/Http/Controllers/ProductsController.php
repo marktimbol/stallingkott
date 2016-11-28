@@ -17,4 +17,9 @@ class ProductsController extends Controller
     {
  		return view('public.products.vortex');
     }
+
+    public function kottKoatings()
+    {
+ 		return view('public.products.kott-koatings');
+    }    
 }

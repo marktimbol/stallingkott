@@ -19,6 +19,7 @@ Route::get('/about/company', ['as' => 'company', 'uses' => 'PagesController@comp
 Route::get('/services', ['as' => 'services', 'uses' => 'ServicesController@index']);
 Route::get('/products', ['as' => 'products', 'uses' => 'ProductsController@index']);
 Route::get('/product/vortex', ['as' => 'products.vortex', 'uses' => 'ProductsController@vortex']);
+Route::get('/product/kott-koatings', ['as' => 'products.kott-koatings', 'uses' => 'ProductsController@kottKoatings']);
 Route::get('/clients', ['as' => 'clients', 'uses' => 'ClientsController@index']);
 Route::get('/materials', 'MaterialsController@index');
 

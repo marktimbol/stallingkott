@@ -43,7 +43,7 @@
 
                     <ul class="dropdown-menu" role="menu">
                         <li><a href="/product/vortex">Vortex</a></li>
-                        <li><a href="#">Kott Koatings</a></li>
+                        <li><a href="/product/kott-koatings">Kott Koatings</a></li>
                     </ul>
                 </li>
                 <li>
