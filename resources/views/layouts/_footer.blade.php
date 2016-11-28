@@ -56,7 +56,7 @@
 						<a href="/services">Services</a>
 					</li>
 					<li>
-						<a href="/products">Products</a>
+						<a href="/product/vortex">Products</a>
 					</li>
 					<li>
 						<a href="/clients">Clients</a>
